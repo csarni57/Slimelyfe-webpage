@@ -1,0 +1,134 @@
+    /* HEADER */
+  header a {
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-weight:bold;
+    background-color: black;
+    border-radius: 3px;
+  }
+  
+  header a:hover{
+    background-color: white;
+    border-radius: 5px;
+  }
+  header{
+    background-image: url("pictures/scatbackground.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Body */
+  body {
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* SOCIALS */
+  .socials h1{
+    display: block;
+    color: orange;
+    background-color: black;
+    font-weight: bolder;
+  }
+
+  .socials {
+    background: rgba(0, 0, 0, 0.904);
+    color: orange;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50px;
+  }
+  
+  .socials figure {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+  }
+  
+  .socials figure img {
+    border: 1px solid white;
+    border-radius: 80%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+  }
+
+  /* Merch */
+
+  .merch figure img{
+    border: 1px solid white;
+    border-radius: 10%;
+    box-shadow: gray 0 0 10px;
+    width: 90%;
+    background-color: black;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .merch-message{
+    margin:0;
+    margin-top: 10px;
+    padding:0;
+    text-align:center;
+    color: orange;
+    background-color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+
+  /* Contact */
+  .contact-message{
+    margin:0;
+    margin-top: 10px;
+    padding:0;
+    text-align:center;
+    color: orange;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+  
+  .contact figure img{
+    border: 1px solid white;
+    border-radius: 10%;
+    box-shadow: gray 0 0 10px;
+    width: 90%;
+    background-color: black;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media screen and (min-width:800px) {
+
+    header{
+      height: 600px;
+      padding: 20px;
+      text-align: center;
+    
+  }
+
+}
